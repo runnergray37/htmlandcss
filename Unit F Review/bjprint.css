@@ -1,0 +1,142 @@
+﻿/* Big J's Deep Dish Pizza */
+@font-face {
+  font-family: 'MolengoRegular';
+  src: url('Molengo-Regular-webfont.eot');
+  src: local('☺'), url('Molengo-Regular-webfont.woff') format('woff'), url('Molengo-Regular-webfont.ttf') format('truetype'), url('Molengo-Regular-webfont.svg#webfontQJMgyz3x') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  }
+h1 {
+  font-size: 2em;
+  padding: 0.2em;
+  margin: 0;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+h2 {
+  font-size: 1.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  margin: 0;
+  }
+h3 {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  }
+img {
+  border: 0;
+  }
+nav {
+  display: block;
+  }
+figcaption {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  }
+figure {
+  display: block;
+  float: left;
+  padding: 0 0.5em 0.25em 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+figure img {
+margin: 0;
+padding: 0;
+}
+/*Step 2*/
+#awards {
+  text-align: right;
+  clear: right;
+ }
+ /*Step 3*/
+#box {
+  width: 31em;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 0;
+  }
+#contact {
+  text-align: right;
+  padding: 0 0.5em 0.5em 0.5em;
+  margin: 0.25em 0 0 0;
+  border-width: 0.25em 0;
+  border-style: solid;
+  }
+#mainnav {
+  padding: 0.5em;
+  margin: 0;
+  border-width: 0.25em 0;
+  border-style: solid;
+  text-align: right;
+  }
+#pagenav {
+  padding: 0.5em;
+  margin: 0;
+  }
+#skiplink {
+  padding: 0.25em;
+  /*Step 4*/
+  }
+#skipnav {
+  width: 31em;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+#words {
+  text-align: center;
+  padding: 0.5em;
+  font-weight: bold;
+  }
+#logo {
+  float: right;
+  }
+.addr {
+  padding: 0 3em 0 0.5em;
+  margin: 0 1em 0.25em 0;
+  }
+.callout {
+  font-weight: bold;
+  }
+.hours {
+  padding: 0 3em;
+  margin-top: 0.5em;
+  }
+.maintext {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  }
+.tagline {
+  font-size: 1.5em;
+  padding: 0.25em;
+  margin: 0;
+  font-family: MolengoRegular, arial, helvetica, sans-serif;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0 0;
+  margin: 0;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
