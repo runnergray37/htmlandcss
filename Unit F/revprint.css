@@ -1,0 +1,70 @@
+﻿/* Revisions Bookstore and Cafe */
+/*Chris Gray HTML5 Unit F, Visual Workshop*/
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fontsChunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background: url("images/books.jpg");
+  }
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  font-size: 2em;
+  }
+h1 img {
+  float: left;
+  }
+nav {
+  display: block;
+  }
+#box {
+  margin: 0 auto;
+  padding: 0.5em;
+  width: 34em;
+  }
+#contact {
+  text-align: right;
+  margin: 0 auto;
+  font-family: ChunkFiveRegular, georgia, "times new roman", times, serif;
+  padding: 1em;
+  clear: left;
+  }
+#cg {
+  text-align: center;
+  }
+#mainnav {
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  }
+#skipnav {
+  width: 34em;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  }
+.maintext {
+  font-size: 1.5em;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
