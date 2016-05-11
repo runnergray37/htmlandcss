@@ -2,5 +2,5 @@
 <p>I edited the HTML and CSS files to achieve a certain objective on each chapter.</p>
 <ul>
   <li>On Unit H, I worked on positioning elements</li>
-  <li>On Unit H, I worked on styling elements with advanced CSS</li>
+  <li>On Unit I, I worked on styling elements with advanced CSS</li>
 </ul>
