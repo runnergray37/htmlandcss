@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Big J&#39;s Deep Dish Pizza - Order</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="bigj.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="bjprint.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="bjformpr.css" /> <!--End of Step 7-->
+    <link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="screen" href="bigjform.css" />  <!--End of Step 1-->
+    <script src="scripts/modernizr-1.6.min.js"></script>
+  </head>
+  <body>
+    <p id="skipnav"><a href="#logo"><span id="skiplink">Skip navigation</span></a></p> 
+    <div id="box">
+      <nav>
+        <ul id="mainnav">
+          <li id="navlink1"><a href="index.html">Home</a></li>
+          <li id="navlink2"><a href="order.html">Order</a></li>
+          <li id="navlink3"><a href="bigjmenu.pdf">Menu</a></li>
+          <li id="navlink4"><a href="location.html">Locations</a></li>
+        </ul>
+      </nav>
+      <h1 id="logo">
+        <a href="index.html"><img src="images/bigjs.gif" width="225" height="225" alt="Big J's Deep Dish Pizza" title="" /></a>
+      </h1>
+      <article class="content">
+        <h2 id="main">Order Online</h2>
+		<form>  <!--Beginning of Step 1-->
+		  <fieldset id="deliveryinfo">
+		    <legend><span>Delivery Information</span></legend>
+			<label>Name <!--Beginning of Step 2-->
+			  <input name="name" id="nameinput" placeholder="First and last name" />
+			</label>
+			<label>Street Address
+			  <input name="address" id="addrinput" placeholder="Building number and street" />
+			</label>
+			<label>City
+			  <input name="city" id="cityinput" placeholder="City" />
+			</label>
+			<label>Email
+			  <input name="email" id="emailinput" placeholder="address@example.com" />
+			</label>
+			<label>Phone
+			  <input name="phone" id="phoneinput" placeholder="Phone" />
+			</label>
+		  </fieldset>
+		  <fieldset id="orderinfo">
+		    <legend><span>Order</span></legend>
+			  <fieldset id="crustbox">
+			    <legend>Crust<legend> <!--Beginning of Step 5-->
+				<label for="thin" >
+				  <input type="radio" name="crusttype" id="thin" value="thin" />
+				  Thin Crust
+				</label>
+				<label for="thick">
+				  <input type="radio" name="crusttype" id="thick" value="deep dish" checked="checked" />
+				  Deep Dish
+				</label>
+			  </fieldset>
+			  <fieldset id="sizebox">
+			    <legend>Size</legend>
+				<select id="size" name="size">          <!--Step 6-->
+				  <option value="small">Small</option>
+				  <option value="medium">Medium</option>
+				  <option value="large">Large</option>
+				  <option value="XL">Extra Large</option>
+				</select>
+			  </fieldset>
+			  <fieldset id="toppingbox">
+			    <legend>Topping(s)
+				</legend>
+				<label for="pepperoni">  <!--Beginning of Step 4-->
+				  <input type="checkbox" id="pepperoni" value="pepperoni" name="toppings" />
+				  Pepperoni
+				</label>  
+				<label>
+				  <input type="checkbox" id="sausage" value="sausage" name="toppings" />
+				  Sausage
+				</label>
+				<label>
+				  <input type="checkbox" id="greenpep" value="Green Peppers" name="toppings" />
+				  Green Peppers
+				</label>
+				<label>
+				  <input type="checkbox" id="onion" value="Onions" name="toppings" />
+				  Onions
+				</label>
+				<label>
+				  <input type="checkbox" id="xcheese" value="Extra Cheese" name="toppings" />
+				  Extra Cheese
+				</label>
+			  </fieldset>
+		  </fieldset>
+		  <fieldset id="additionalinfo">
+		    <legend><span>Special Instructions</span></legend>
+			<label>Special requests, delivery details
+			  <textarea name="instructions" id="instructions" placeholder="Requests" rows="3" cols="60"></textarea> <!--End of Step 2-->
+			</label>
+		  </fieldset>
+		  <fieldset id="submitbutton">
+		    <input type="submit" id="submit" value="Add to Cart" />  <!--Beginning of Step 7-->
+		  </fieldset>
+		</form>
+      </article>
+      <footer>
+        <div id="foot1">
+          <p>150 St. Joseph St.<br />
+          <span class="callout">(416) 555-3337</span></p>
+        </div>
+        <div id="foot2">
+          <p>783 St. Clair Ave. W<br />
+          <span class="callout">(416) 555-2047</span></p>
+        </div>
+        <div id="foot3">
+          <p>360 Dundas St. W<br />
+          <span class="callout">(416) 555-1011</span></p>
+        </div>
+      </footer>
+    </div>
+  <p>Chris Gray HTML5 Unit J, Skills Review</p>
+  </body>
+</html>
